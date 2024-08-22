@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=1 python preprocess.py --clips_dir /data/pose/dataset/bop/hot3d/train_aria --object_models_dir /data/pose/dataset/bop/hot3d/object_models --output_dir ../output/ --clip_start 1849 --clip_end 1849
+CUDA_VISIBLE_DEVICES=1 python run_video.py --clips_dir /data/pose/dataset/bop/hot3d/train_aria --object_models_dir /data/pose/dataset/bop/hot3d/object_models --output_dir ../output/ --debug --clip_start 1849 --clip_end 1849 --target_object 2
+
+CUDA_VISIBLE_DEVICES=0 python preprocess.py --clips_dir /data/pose/dataset/bop/hot3d/train_quest3 --object_models_dir /data/pose/dataset/bop/hot3d/object_models --output_dir ../output/ --clip_start 100 --clip_end 100
+CUDA_VISIBLE_DEVICES=0 python run_video.py --clips_dir /data/pose/dataset/bop/hot3d/train_quest3 --object_models_dir /data/pose/dataset/bop/hot3d/object_models --output_dir ../output/ --debug --clip_start 100 --clip_end 100 --target_object 1
