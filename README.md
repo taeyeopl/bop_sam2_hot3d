@@ -50,7 +50,7 @@ We use the `sam2_hiera_tiny.pt` model for efficient SAM2 video inference. To vis
     cd sam2_hot3d
     python run_video.py --clips_dir /path/to/hot3d/train_quest3 --object_models_dir /path/to/hot3d/object_models --output_dir ../output/ --clip_start 0 --clip_end -1 --debug --conf_thres 80 --iou_thres 60
     
-#### 7. (Optional) Customizing Parameters
+### 7. (Optional) Customizing Parameters
 You can select different models and adjust confidence levels in `run_video.py` according to your requirements: 
 ```
 --conf_thres = 80  # Range: 0 ~ 100
