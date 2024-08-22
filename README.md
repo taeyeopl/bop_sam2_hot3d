@@ -1,8 +1,8 @@
 # BOP Toolkit Extended with SAM2 for Object Visibility Estimation on HOT3D
 
 <p align="center">
-  <img src="docs/result_aria_clip_1849_obj_2.gif" height="400" />
-  <img src="docs/result_quest3_clip_100_obj_1.gif" height="400" /> 
+  <img src="docs/result_aria_clip_1849_obj_2.gif" height="320" />
+  <img src="docs/result_quest3_clip_100_obj_1.gif" height="320" /> 
 </p>
 
 
