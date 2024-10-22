@@ -60,6 +60,17 @@ For efficiency, we use `sam2_hiera_large.pt` in `preprocess.py` and `sam2_hiera_
 
 ### Acknowledgement
 The code is adapted from [BOP](https://github.com/thodan/bop_toolkit), [SAM2](https://github.com/facebookresearch/segment-anything-2), [HOT3D](https://github.com/facebookresearch/hot3d).
+
+### Citation
+```
+@misc{bop-visibility,
+    Author = {Taeyeop Lee, Tomas Hodan, Prithviraj Banerjee, Van Nguyen Nguyen},
+    Year = {2024},
+    Note = {https://github.com/taeyeopl/bop_sam2_hot3d},
+    Title = {BOP Toolkit Extended with SAM2 for Object Visibility Estimation on HOT3D}
+}
+```
+
 ### Contact
-If you have any question, feel free to create an issue or contact the [Taeyeop Lee](https://sites.google.com/view/taeyeop-lee/).
+If you have any questions, feel free to create an issue or contact the [Taeyeop Lee](https://sites.google.com/view/taeyeop-lee/).
 
